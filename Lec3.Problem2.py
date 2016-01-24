@@ -13,7 +13,6 @@ while num < 11:
     num +=2
 print "Goodbye!"
 
-###########################
 # Problem 2B
 #print Hello!
 #print 10
@@ -28,7 +27,6 @@ while num > 0:
     print num
     num -=2
 
-#####################
 # Problem 2C
 # Print the total sums of numbers from num to end 
 
