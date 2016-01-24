@@ -3,7 +3,7 @@
 x = float(raw_input('Enter a decimal number between 0 and 1: '))
 
 p = 0
-while ((2**p)*x)%1 != 0:
+while ((2**p)*x) % 1 != 0:
     print('Remainder = ' + str((2**p)*x - int((2**p)*x)))
     p += 1
 
