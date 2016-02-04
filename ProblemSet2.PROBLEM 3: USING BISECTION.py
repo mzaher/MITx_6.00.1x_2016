@@ -24,4 +24,5 @@ while abs(balance) >= epsilon:
 	else:
 		higherBound = minMonthlyPayment
 	minMonthlyPayment = (higherBound + lowerBound) / 2.0
+	
 print('Lowest Payment: %s' % (round(minMonthlyPayment, 2)))
