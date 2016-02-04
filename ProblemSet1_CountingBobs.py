@@ -10,6 +10,4 @@ def countVowels(s):
 
 def printCount():
     print(countVowels(s))
-
-
 printCount()
